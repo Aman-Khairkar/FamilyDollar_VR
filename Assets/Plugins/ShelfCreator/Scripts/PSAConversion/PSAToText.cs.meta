@@ -1,0 +1,35 @@
+fileFormatVersion: 2
+guid: f5dbe0c0ef0cd40de986d5d2271a8475
+timeCreated: 1485357793
+licenseType: Pro
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - AppSpecificSetupScript: {instanceID: 0}
+  - shelfParent: {instanceID: 0}
+  - positionPrefab: {fileID: 1827631404805126, guid: 8c07c920e5a90e14489b3e2ab8d3f843,
+      type: 2}
+  - productPrefab: {fileID: 1903244016467638, guid: eb55a22a556472043ac97741b457af6a,
+      type: 2}
+  - fixturePrefab: {fileID: 1828868997456688, guid: 77a115aec8f055c418fb86911733366c,
+      type: 2}
+  - posmPrefab: {fileID: 1404861284475288, guid: 67acb2f70fd01014cae4d6d6935871b9,
+      type: 2}
+  - headerPrefab: {fileID: 1985954577571470, guid: cac927469dcae7845b4d2a6beace61ea,
+      type: 2}
+  - shelfAccentPrefab: {fileID: 1535477808138586, guid: 48e17ff8cc55db840acccdeea11591d7,
+      type: 2}
+  - segmentPrefab: {fileID: 1473889494271094, guid: bacca2d37b13a294bb3d1cb2e7820c0a,
+      type: 2}
+  - backTemplateMaterial: {fileID: 2100000, guid: 201bc79e2d6281c498547afe9d0b0c90,
+      type: 2}
+  - shelfTemplateMaterial: {fileID: 2100000, guid: a60445173336dfe428acaf38d06623e8,
+      type: 2}
+  - baseTemplateMaterial: {fileID: 2100000, guid: 1681ccb83d8cf06408a138500461129f,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

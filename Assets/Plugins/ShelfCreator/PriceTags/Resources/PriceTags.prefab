@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1233854964019428}
+  m_IsPrefabAsset: 1
+--- !u!1 &1233854964019428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4967501519704200}
+  - component: {fileID: 114922334655531562}
+  - component: {fileID: 114426389924047438}
+  m_Layer: 0
+  m_Name: PriceTags
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4967501519704200
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1233854964019428}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.545558, y: 73.14357, z: 23.68924}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114426389924047438
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1233854964019428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4851472b78fb738449e9647ab1b2f9a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PriceTagPrefab: {fileID: 1016886229107208, guid: d37daf74f60580a45bd56bf735315620,
+    type: 2}
+--- !u!114 &114922334655531562
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1233854964019428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70a91cf0f33de23429f8741d7ade3e1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowPriceTags: 0
+  PriceTags: []
+  PriceTagPopupPrefab: {fileID: 1241621475353276, guid: e45f6b6c3e1fbd74ab5f75934d8343f2,
+    type: 2}
+  PriceTagPopup: {fileID: 0}
+  PopupText: {fileID: 0}

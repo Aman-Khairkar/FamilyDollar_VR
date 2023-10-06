@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: db2890f2ac28b564f9eb59656577b957
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_PersistentViewDataDictionary: {instanceID: 0}
+  - psaConverterGameObjPrefab: {fileID: 1834708658851316, guid: b09bed840039c7543841b650a7f1af67,
+      type: 2}
+  - psaToTextScript: {instanceID: 0}
+  - psaEventHandlers: {instanceID: 0}
+  - priceTagsEventHandlers: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

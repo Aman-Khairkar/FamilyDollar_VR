@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: ec8125e8f87e4415aa956660c287e4d7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - productPositionPrefab: {fileID: 1602528594233790, guid: 888155c7f4f9b4ea0bfeb88e28adac91,
+      type: 3}
+  - fixturePrefab: {fileID: 1828868997456688, guid: fd1ef0db0fade554f97d5ccf3351db39,
+      type: 3}
+  - posmPrefab: {fileID: 1404861284475288, guid: f79bbe5778f574b4ca4062c6cc62f3aa,
+      type: 3}
+  - segmentPrefab: {fileID: 1473889494271094, guid: f76a200032a47ae4090172d29df357de,
+      type: 3}
+  - shelfAccentsPrefab: {fileID: 1535477808138586, guid: 0bec20c94ded8f34dadddbcff3f9e459,
+      type: 3}
+  - shelfMaterial: {fileID: 2100000, guid: a60445173336dfe428acaf38d06623e8, type: 2}
+  - backMaterial: {fileID: 2100000, guid: 9a4b79f6c2e16e14ebe6bbb01c6d939f, type: 2}
+  - baseMaterial: {fileID: 2100000, guid: a7d2147e4b699d043acb62618f7f3228, type: 2}
+  - simplifiedBoxMesh: {fileID: 4300000, guid: 4de9c79af5a97a24395f52ab8dfd9c56, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

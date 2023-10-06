@@ -1,0 +1,11 @@
+KEYBOARD COMMANDS FOR BABY RESEACH 2019 VR
+
+Next Strategy     		= F ("forward")
+Previous Strategy 		= B ("backward")
+Jump to Stategy   		= Number Row Keys 1-7
+Toggle Headers	  		= H
+Toggle Pricing    		= P
+Reset Player Position to start  = R
+Load 28ft Valley shelves scene	= LeftAlt + Number Row 1
+Load 44ft valley shelves scene  = LeftAlt + Number Row 2
+Load 44ft Long Run Shelves scene  = LeftAlt + Number Row 3

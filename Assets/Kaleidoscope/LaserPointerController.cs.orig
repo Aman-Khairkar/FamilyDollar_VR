@@ -1,0 +1,388 @@
+﻿//using ExitGames.Demos.DemoPunVoice;
+using Photon.Voice;
+using System.Collections;
+using System.Collections.Generic;
+using Oculus.Platform.Models;
+using Photon.Pun;
+using Photon.Voice.PUN;
+using UnityEngine;
+using Photon.Voice.Unity;
+using UnityEngine.Experimental.UIElements;
+using TMPro;
+
+public class LaserPointerController : MonoBehaviour
+{
+    public LineRenderer laser;
+    public Transform particlePoint;
+
+    public float maxDistance = 100f;
+    public GameObject selectedObject = null;
+    public GameObject grabbedObject = null;
+    public LayerMask Mask;
+    public LayerMask Teleportation;
+    public LayerMask UI;
+    public LayerMask Shelf;
+
+    public Transform teleport = null;
+    public Transform player;
+    public Transform playerCam;
+
+    public bool leaderIsHoldingObject = false;
+    private bool isTheLeader;
+    private Recorder muteMic;
+    private float timePassed;
+    public bool delay = false;
+    private float heldThreshold = 1.0f;
+
+    public SpriteRenderer muteGuide;
+    public List<Sprite> muteGuideToggle;
+
+    [SerializeField]
+    public List<GameObject> deskHints;
+
+    private bool deskHintsEnabled = true;
+
+    //public MeshRenderer teleportHint;
+
+    //public SpriteRenderer mutedUser;
+    //public SpriteRenderer mutedUserOverhead;
+
+    //private StrategiesManager stratMan;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        isTheLeader = player.GetComponent<UserManager>().isLeader;
+
+        muteMic = GetComponentInParent<VoiceConnection>().PrimaryRecorder;
+
+        this.transform.localPosition = new Vector3(0.1f, 0, 0.31f);
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        float rayDistance = maxDistance;
+
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, rayDistance,
+            Shelf))
+        {
+            rayDistance = hit.distance;
+            if (hit.collider.gameObject != selectedObject && selectedObject != null)
+                selectedObject.SendMessage("UnSelect", SendMessageOptions.DontRequireReceiver);
+
+            selectedObject = hit.collider.gameObject;
+            selectedObject.SendMessage("Select", SendMessageOptions.DontRequireReceiver);
+        }
+
+        if (!leaderIsHoldingObject || player.GetComponent<UserManager>().isLeader)
+        {
+            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, rayDistance, Mask))
+            {
+                rayDistance = hit.distance;
+                if (hit.collider.gameObject != selectedObject && selectedObject != null)
+                    selectedObject.SendMessage("UnSelect", SendMessageOptions.DontRequireReceiver);
+
+                selectedObject = hit.collider.gameObject;
+                selectedObject.SendMessage("Select", SendMessageOptions.DontRequireReceiver);
+
+                if (OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger) || Input.GetKeyDown(KeyCode.Space))
+                {
+
+                    grabbedObject = selectedObject.GetComponent<SelectableProduct>().Duplicate();
+                    //selectedObject.SendMessage("TriggerPress", SendMessageOptions.DontRequireReceiver);
+                    //grabbedObject = GetComponentInChildren<ProductDoppelGanger>().gameObject ;
+                    maxDistance = 0.01f;
+#if UNITY_EDITOR || UNITY_STANDALONE
+                    this.gameObject.transform.localEulerAngles = Vector3.zero;
+                    //desktop ver: the controller keeps shooting forward, this should help - FigJ
+                    //this.gameObject.transform.localPosition = new Vector3(0.13f, -0.053f, 0f);
+
+#endif
+                    GetComponentInParent<UserManager>().photonView.RPC("SetProductToHand", Photon.Pun.RpcTarget.Others, grabbedObject.name);
+
+                    if (player.GetComponent<UserManager>().isLeader)
+                    {
+                        Debug.Log("Grabbed object name is " + grabbedObject.name);
+                        GetComponentInParent<UserManager>().photonView.RPC("PickupObjectFromLeader", Photon.Pun.RpcTarget.AllViaServer, grabbedObject.name);
+
+                    }
+                }
+            }
+            else
+            {
+                if (selectedObject != null)
+                {
+                    selectedObject.SendMessage("UnSelect", SendMessageOptions.DontRequireReceiver);
+                    selectedObject = null;
+
+                }
+            }
+
+
+            if (grabbedObject != null)
+            {
+                if (OVRInput.GetUp(OVRInput.RawButton.RIndexTrigger) || Input.GetKeyUp(KeyCode.Space))
+                {
+
+
+
+                    if (player.GetComponent<UserManager>().isLeader)
+                    {
+                        GetComponentInParent<UserManager>().photonView.RPC("DropObjectFromLeader", Photon.Pun.RpcTarget.AllViaServer);
+
+                    }
+                    else
+                    {
+                        grabbedObject.SendMessage("DestroyMe", SendMessageOptions.DontRequireReceiver);
+                        maxDistance = 100f;
+                        GetComponentInParent<UserManager>().photonView.RPC("SetProductToShelf", Photon.Pun.RpcTarget.AllViaServer);
+
+                    }
+
+#if UNITY_EDITOR || UNITY_STANDALONE
+                    //Force the controller's x rotation back to 0
+                    this.gameObject.transform.localEulerAngles = Vector3.zero;
+                    //desktop ver: the controller keeps shooting forward, this should help - FigJ
+                    //this.gameObject.transform.localPosition = new Vector3(0.13f, -0.053f, 0f);
+#endif
+                }
+            }
+        }
+        //teleportation will be controlled here; headset ver only - FigJ
+#if UNITY_ANDROID || UNITY_EDITOR
+
+        if (delay)
+        {
+            timePassed += Time.deltaTime;
+            if (timePassed >= heldThreshold)
+            {
+                timePassed = 0;
+                delay = false;
+            }
+        }
+
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, rayDistance, Teleportation))
+        {
+            rayDistance = hit.distance;
+            if (hit.collider.gameObject != selectedObject && selectedObject != null)
+                selectedObject.SendMessage("UnSelect", SendMessageOptions.DontRequireReceiver);
+
+            selectedObject = hit.collider.gameObject;
+            selectedObject.SendMessage("Select", SendMessageOptions.DontRequireReceiver);
+            teleport = selectedObject.transform;
+            if (OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger) || Input.GetKeyDown(KeyCode.Space))
+            {
+                Vector3 distanceToChange = new Vector3(
+                    player.position.x - playerCam.position.x,
+                    player.position.y,
+                    player.position.z - playerCam.position.z
+                    );
+                player.position = new Vector3(teleport.position.x + distanceToChange.x,
+                    player.position.y,
+                    teleport.position.z + distanceToChange.z
+                    );
+                teleport = null;
+            }
+        }
+
+        laser.SetPosition(1, Vector3.forward * rayDistance);
+
+        if (particlePoint != null)
+            particlePoint.localPosition = Vector3.forward * rayDistance;
+
+        //becoming leader is limited to headset users only -- FigJ
+        // functionality for changing if you're a leader or not-- basically, by pressing the button, you toggle your leadership status
+
+        if (player.GetComponent<UserManager>().isLeader)
+        {
+            if (!delay && ((OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger) && OVRInput.Get(OVRInput.Button.Two)) || (Input.GetKey(KeyCode.L) && Input.GetKey(KeyCode.K))))
+            {
+
+                ToggleLeadership();
+
+            }
+            else if (OVRInput.GetDown(OVRInput.Button.Two) || Input.GetKeyDown(KeyCode.L))
+            {
+                ToggleLoad();
+                Invoke("LeaderSwitchShelves", 0.5f);
+                Invoke("ToggleLoad", 1.0f);
+                delay = false;
+            }
+        }
+        else if (!delay && ((OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger) && OVRInput.Get(OVRInput.Button.Two)) || (Input.GetKey(KeyCode.L) && Input.GetKey(KeyCode.K))))
+        {
+            ToggleLeadership();
+        }
+
+#endif
+
+        //Primarily for the external UI buttons - rdrury
+        if (player.GetComponent<UserManager>().isLeader && Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward),out hit,maxDistance, UI))
+        {
+            if(selectedObject != null)
+            {
+                    selectedObject.SendMessage("UnSelect", SendMessageOptions.DontRequireReceiver);
+            }
+            selectedObject = hit.collider.gameObject;
+            hit.collider.GetComponent<Outline>().Highlight();
+            if (OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger) || Input.GetKeyDown(KeyCode.Space))
+            {
+                hit.collider.GetComponent<Outline>().Unhighlight();
+                if (hit.collider.name == "Play_Button")
+                {
+                    GetComponentInParent<UserManager>().photonView.RPC("PlayButton", Photon.Pun.RpcTarget.AllViaServer);
+                }
+                else if (hit.collider.name == "Pause_Button")
+                {
+                    GetComponentInParent<UserManager>().photonView.RPC("PauseButton", Photon.Pun.RpcTarget.AllViaServer);
+                }
+                else if (hit.collider.name == "Back_Button")
+                {
+                    GetComponentInParent<UserManager>().photonView.RPC("BackButton", Photon.Pun.RpcTarget.AllViaServer);
+                }
+                else if (hit.collider.name == "Forward_Button")
+                {
+                    GetComponentInParent<UserManager>().photonView.RPC("ForwardButton", Photon.Pun.RpcTarget.AllViaServer);
+                }
+                else if (hit.collider.name == "Heatmap Button")
+                {
+                    GetComponentInParent<UserManager>().photonView.RPC("HeatmapButton", Photon.Pun.RpcTarget.AllViaServer);
+                }
+            }
+        }
+
+        laser.SetPosition(1, Vector3.forward * rayDistance);
+
+        if (particlePoint != null)
+            particlePoint.localPosition = Vector3.forward * rayDistance;
+
+        // functionality for changing if you're a leader or not-- basically, by pressing the button, you toggle your leadership status
+        /*if (OVRInput.GetDown(OVRInput.Touch.Two) || Input.GetKeyDown(KeyCode.L))
+        {
+            player.GetComponent<UserManager>().photonView.RPC("ToggleLeadership", Photon.Pun.RpcTarget.AllBufferedViaServer);
+            OVRInput.SetControllerVibration(1, 1,OVRInput.Controller.RTouch);
+            Invoke("StopVibration",1f);
+            Debug.Log("Changing Leadership!");
+        }*/
+
+        if (Input.GetKeyDown(KeyCode.M) || OVRInput.GetDown(OVRInput.Button.One))
+        {
+            if (muteMic != null)
+            {
+                muteMic.IsRecording = !muteMic.IsRecording;
+
+                if (muteMic.IsRecording == false)
+                {
+                    Debug.Log(GetComponentInParent<PhotonView>().InstantiationId.ToString() + " is muted.");
+                    muteGuide.sprite = muteGuideToggle[1];
+                }
+                else if (muteMic.enabled == true)
+                {
+                    Debug.Log(GetComponentInParent<PhotonView>().InstantiationId.ToString() + " can speak again.");
+                    muteGuide.sprite = muteGuideToggle[0];
+                }
+            }
+
+            else
+            {
+                muteMic = GetComponentInParent<VoiceConnection>().PrimaryRecorder;
+                muteMic.IsRecording = !muteMic.IsRecording;
+
+                if (muteMic.IsRecording == false)
+                    Debug.Log(GetComponentInParent<PhotonView>().InstantiationId.ToString() + " is muted.");
+                else if (muteMic.enabled == true)
+                    Debug.Log(
+                        GetComponentInParent<PhotonView>().InstantiationId.ToString() + " can speak again.");
+            }
+
+            //to get the sprites to show up on others' views
+            GetComponentInParent<UserManager>().photonView.RPC("ToggleMutedUser", RpcTarget.AllBuffered);
+        }
+
+    }
+
+    public void PickupObjectFromLeader(GameObject g)
+    {
+#if UNITY_ANDROID || UNITY_EDITOR
+        Debug.Log("Picking up object from leader!");
+        leaderIsHoldingObject = true;
+        if(grabbedObject == null && GetComponentInChildren<ProductDoppelGanger>() != null)
+        {
+            grabbedObject = GetComponentInChildren<ProductDoppelGanger>().gameObject;
+        }
+
+        if (grabbedObject != null)
+        {
+            // drop the object!
+            Destroy(grabbedObject);
+        }
+
+        if(selectedObject != null)
+        {
+            selectedObject.SendMessage("UnSelect", SendMessageOptions.DontRequireReceiver);
+        }
+
+        grabbedObject = g.GetComponent<SelectableProduct>().Duplicate();
+            maxDistance = 0.01f;
+#if UNITY_EDITOR || UNITY_STANDALONE
+        this.gameObject.transform.localEulerAngles = Vector3.zero;
+#endif
+            GetComponentInParent<UserManager>().photonView.RPC("SetProductToHand", Photon.Pun.RpcTarget.Others, grabbedObject.name);
+#endif
+    }
+
+    public void DropLeaderObject()
+    {
+#if UNITY_ANDROID || UNITY_EDITOR
+        leaderIsHoldingObject = false;
+        grabbedObject.SendMessage("DestroyMe", SendMessageOptions.DontRequireReceiver);
+        GetComponentInParent<UserManager>().photonView.RPC("SetProductToShelf", Photon.Pun.RpcTarget.AllViaServer);
+        selectedObject = null;
+        grabbedObject = null;
+        maxDistance = 100f;
+
+#if UNITY_EDITOR || UNITY_STANDALONE
+        //Force the controller's x rotation back to 0
+        this.gameObject.transform.localEulerAngles = Vector3.zero;
+#endif
+#endif
+    }
+
+
+    void StopVibration()
+    {
+        OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.RTouch);
+    }
+
+    void ToggleLoad()
+    {
+        SpriteRenderer loadShelf = GetComponentInParent<UserManager>().loadTemp;
+
+        loadShelf.enabled = !loadShelf.enabled;
+
+    }
+
+    void ToggleLeadership()
+    {
+        delay = true;
+        timePassed = 0;
+        if (LeaderManager.Instance.leaderExists == player.gameObject)
+        {
+            GetComponentInParent<UserManager>().photonView.RPC("MakeClientNotLeader", Photon.Pun.RpcTarget.AllBufferedViaServer);
+            Debug.Log("There is no leader.");
+        }
+        else if (LeaderManager.Instance.leaderExists == null)
+        {
+            GetComponentInParent<UserManager>().photonView.RPC("MakeClientLeader", Photon.Pun.RpcTarget.AllBufferedViaServer);
+            Debug.Log("Leader is now " + LeaderManager.Instance.leaderExists.name);
+        }
+        else
+            Debug.Log("Leader is still " + LeaderManager.Instance.leaderExists.name);
+    }
+
+    void LeaderSwitchShelves()
+    {
+        GetComponentInParent<UserManager>().photonView.RPC("SwitchShelves", Photon.Pun.RpcTarget.AllBuffered);
+    }
+}

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 4851472b78fb738449e9647ab1b2f9a4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - PriceTagPrefab: {fileID: 1016886229107208, guid: d37daf74f60580a45bd56bf735315620,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

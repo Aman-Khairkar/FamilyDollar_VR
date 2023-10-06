@@ -1,0 +1,28 @@
+PropagateProductTransform How-to
+
+Required Scripts:  PropagateProductTransform.cs, ShelfCleanup.cs, StrategiesManager.cs
+
+	ShelfCleanup : Removes unnecessary components and hierarchy nodes created by the PSA Parser, making it easier
+		to work with the output products in our VR applications. Removes back products, leaving only a single row of front-facing products.  Outputs two child nodes, one containing all product objects and one containing shelf geometry (fixtures and accents). Also automatically adds PropagateProductTransform to product parent objects.
+
+	PropagateProductTransform (ppt) : Searches all products on all stratgies in "Strategies" array on StrategiesManager.  Collects 		all products that share a UPC (GameObject name) with this object. Copies this object's transform values to every matching 		product found. Has the option of copying only the Mesh's transform values, only the Mesh's parent(confusingly named 	 		"product")'s values, or both. 
+
+	StrategiesManager : Just holds and array of the strategies which you wish to be affected by PropagateTransform.  If you're 			worried about products that share a UPC but show different facings on their respective strategies, simply remove the 			strategies which you don't want to be affected from the Array on this object.
+
+======================================================================================================================
+HOW TO DO THE THING
+
+Prep work:  <<If you skip this step, it won't work>>
+	Create an empty GameObject. Name it "Strategies Manager". Add a StrategiesManager Component to it.  In the "Strategies" lsit, assign any and all strategies you wish to be affected by your transform propagations.
+
+Step 1: On the top-level parent of each strategy, add a "ShelfCleanup" component.  
+
+2: On the Shelf Cleanup component, click on the little gear icon in the top right of the component field. From the drop down menu, choose "clean up parser hierarchy".
+
+3: You will now have a streamlined hierarchy underneath the strategy parent, consisting of "products" and "fixtures".  Rotate, scale, or otherwise manipulate the products to your heart's content.  IMPORTANT NOTE: When adjusting the products' rotation, it's usually better to manipulate the product's "Mesh" child instead of the product's top-level object. 
+
+4: When finished, select the top-level products you wish to use as propagators.  Click the gear icon, and choose "Set propagateTransform to mesh" from the drop-down. Viola, all matching products should match the selected object's rotation.
+
+Repeat steps 1-4 for every product you want to propagate.
+
+Any problems, email Drew at dmarfurt@kascope.com or drewmarfurt@gmail.com.  513.560.4020.
