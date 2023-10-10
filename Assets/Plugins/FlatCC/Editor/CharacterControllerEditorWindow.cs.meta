@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 847d1dce998573d4f92e2d6171debefb
+timeCreated: 1517950567
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - CharacterControllerPrefab: {fileID: 1080801928297992, guid: f56b0197f2f43c247af6500ee96efc93,
+      type: 2}
+  - fpsController: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
