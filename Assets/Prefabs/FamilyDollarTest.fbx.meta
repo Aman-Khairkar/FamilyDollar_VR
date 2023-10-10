@@ -1,0 +1,2460 @@
+fileFormatVersion: 2
+guid: 21d52206e1c126d4894a8cee7bb2e320
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 14 - Default
+    second: {fileID: 2100000, guid: 9404f00321313b84daeb7a9bf5de0a09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 360
+    second: {fileID: 2100000, guid: ed6bbc8e674d20649a9c1bb532305d62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Asphalt_Texture_Yellowlines
+    second: {fileID: 2100000, guid: 42cb42b4bdde2e149b011fd761a5a36d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Back_wall
+    second: {fileID: 2100000, guid: aaf2e2a2652c4e64087215f57e03cd35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceilling
+    second: {fileID: 2100000, guid: db77cb5d55b380b46a7af47ba62bfce7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cilling_duck_02
+    second: {fileID: 2100000, guid: f277396cf5d6414449e684ea00afb381, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_02
+    second: {fileID: 2100000, guid: 00a00eed24259794da4b7d77cedea150, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EnadCap_0596
+    second: {fileID: 2100000, guid: 8b4d9357b5d798a4cacbd9066ba4ba30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EnadCap_0596_signage
+    second: {fileID: 2100000, guid: 0d57a67800e325745a3f3fc6ef70e1b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EndCap_0604
+    second: {fileID: 2100000, guid: 1cde43bb45ce4f14db2caa58c8bbc1d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EndCap_0604_signage
+    second: {fileID: 2100000, guid: 5b136c616870a1e49a6fb726f8e9d040, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EndCap_0607_signage
+    second: {fileID: 2100000, guid: b943a6808e6591142b55a895fb9a4879, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EndCap_0613
+    second: {fileID: 2100000, guid: bec66fa6ea59f1249aae2f703179508e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EndCap_0613_signage
+    second: {fileID: 2100000, guid: 7ab195b5c647e0d478656cc5f6f3915c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EndCap_0616
+    second: {fileID: 2100000, guid: ee080b63a6fb70a48b25573cd18383d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EndCap_0616_Side
+    second: {fileID: 2100000, guid: 79513bec22efd9c4c99312fcbc05d1dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EndCap_0619
+    second: {fileID: 2100000, guid: f25223dd99c2df847bfa302cee71a97d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EndCap_0640
+    second: {fileID: 2100000, guid: f14c6aaf97ccf6c4bb2ddce8a0cb40e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_0556
+    second: {fileID: 2100000, guid: 12e2b1131fbac0341b5c519d18e66e31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_0557
+    second: {fileID: 2100000, guid: 424b51eef9d9cdb4a9140a07b2d6075d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_0565
+    second: {fileID: 2100000, guid: 263c1e0f011483f408aa7d1ad5956734, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_0568
+    second: {fileID: 2100000, guid: 1eeee7fb882f5ef45b46353890a0b4a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_0571
+    second: {fileID: 2100000, guid: a6760554ee8439f42b3d1461e6b8a262, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_0579
+    second: {fileID: 2100000, guid: e91abf8f02fdcd046a5a3b81d5dd33e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_0581
+    second: {fileID: 2100000, guid: 679833565802be64e8a0f018ffdf56c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_0583
+    second: {fileID: 2100000, guid: 1e1bbb5be99056945bc2d0505cd13a7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_0583_01
+    second: {fileID: 2100000, guid: 96464f5fc89cb3f478387f357ca4feca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_0587
+    second: {fileID: 2100000, guid: 59605e964fff75b4a8f615733d93304a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_0587.png
+    second: {fileID: 2100000, guid: 59605e964fff75b4a8f615733d93304a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_0587_B
+    second: {fileID: 2100000, guid: b7f3e6c71ff0e6e4eae050e8a2c39022, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_0590
+    second: {fileID: 2100000, guid: 68233f5ec07f452439b330eaad78f3ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_0601
+    second: {fileID: 2100000, guid: cf0a1b76f6bd2684e80efbc3286076ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_0607
+    second: {fileID: 2100000, guid: f929da302f37f6246ae72a565b2bbb6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_0610
+    second: {fileID: 2100000, guid: fe1145423fe27704cb816a4c2b9b9911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_0610_signage
+    second: {fileID: 2100000, guid: a9af5b75734f62b4db72edc42e8fb583, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_622
+    second: {fileID: 2100000, guid: a3d5ea3ebbe808948bcbc03ab0da8a52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_625
+    second: {fileID: 2100000, guid: 94643c0bb967aa247af4b99d25dc6819, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_625_side
+    second: {fileID: 2100000, guid: 4229caba04289334aabb78e0af52a10c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_628
+    second: {fileID: 2100000, guid: f5b5bd776211d304da893f902baf2971, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_631
+    second: {fileID: 2100000, guid: e376319dfe8e6c44a9fc1cebb2116504, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_631_side_
+    second: {fileID: 2100000, guid: 90595cd569b43b8409d13235106b6d28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_634
+    second: {fileID: 2100000, guid: 5e70940e2ea532a488aba10c4774303f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_634_side
+    second: {fileID: 2100000, guid: 017c415a438575846ac934855d7c12d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_637
+    second: {fileID: 2100000, guid: f20bfebe715294b448407b4eae6e5f4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_637_side_
+    second: {fileID: 2100000, guid: 779f676d91c4a944fa7e672d9299105a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_643
+    second: {fileID: 2100000, guid: d92dfc20948aaf641808a02a65acc5dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_643_side
+    second: {fileID: 2100000, guid: 5758982dedaef804d914a283fd99cdef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_FAM_0648
+    second: {fileID: 2100000, guid: 9b58b04980b65d3469620ed97980fa95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_FAM_0648_01
+    second: {fileID: 2100000, guid: d0a6baf5285af304bbd8b2ffcfc4d85b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_FAM_0651
+    second: {fileID: 2100000, guid: bad3635087847374d84b554096360827, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_FAM_0654
+    second: {fileID: 2100000, guid: 5cf1f0ef348da194dafeee45164d9867, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_FAM_0656
+    second: {fileID: 2100000, guid: f05e6e744f088544e80001123cb8732d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_FAM_0657
+    second: {fileID: 2100000, guid: 71f7d4a587be5fe49aa592251cb5daea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_FAM_0660
+    second: {fileID: 2100000, guid: 30947fa1beccf9d41aff84000b06882b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_FAM_0664
+    second: {fileID: 2100000, guid: b8feba2737b62ad468a5db43a7a9d4fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_FAM_0665
+    second: {fileID: 2100000, guid: 690f1f7ead867964aaed6157634ea019, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_FAM_0670
+    second: {fileID: 2100000, guid: 312e1619e72b11747b60e2b2cd4ac017, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_FAM_0674_01
+    second: {fileID: 2100000, guid: 1bf8e692beae0f744baf82995d72f591, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_FAM_0680
+    second: {fileID: 2100000, guid: fbd4a550a33e11243a2339e721277da4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_FAM_0683
+    second: {fileID: 2100000, guid: 29f59bbee54836543915ebb9234217a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_FAM_0686
+    second: {fileID: 2100000, guid: a75466f63d2cff34fa6ead274c03d09d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_FAM_0690
+    second: {fileID: 2100000, guid: 4755f69e981d3854dbe38898865e4de2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_FAM_0692
+    second: {fileID: 2100000, guid: 13314ecee0bfe6a4f978d271314755ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcap_Headers_DOL_2639
+    second: {fileID: 2100000, guid: 900db10de0711644c8f6660111fde9f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcaps0559
+    second: {fileID: 2100000, guid: 0bde6dd1f96c60444a8cbe1ebfc9fac1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcaps0559_a
+    second: {fileID: 2100000, guid: d2d0c493cffff7d4db485aa0b7720a31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Endcaps0560
+    second: {fileID: 2100000, guid: f0da63b192cdf0d46a77dcc607815828, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Exteriar_wall_front_
+    second: {fileID: 2100000, guid: 09d6c9dbd00348c42b06326bc2ea63a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FAM_0593_signage
+    second: {fileID: 2100000, guid: b9c354349aca6894392ead28f99ba72e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FAM_0601_signage
+    second: {fileID: 2100000, guid: 204bc70685c76de4ead6937595c089ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FD_wall_png
+    second: {fileID: 2100000, guid: d58a78c8d3fa2214484b5a7c97c0f6fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor_small
+    second: {fileID: 2100000, guid: 1af6d7a074cf541479409bf2b92ae069, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: For_Less_png
+    second: {fileID: 2100000, guid: 0dcc5e5eefbaed04a9acb5d8ffc6da41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Freez_Side_png
+    second: {fileID: 2100000, guid: 75b646b1bcdca8d4e90d6c35c289822f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_10_A_seg_01
+    second: {fileID: 2100000, guid: a140170aa60a8154cbc82bad237aecfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_10_A_seg_02
+    second: {fileID: 2100000, guid: 77b81404b34352943af5a81a62505b18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_10_A_seg_03
+    second: {fileID: 2100000, guid: a94a288527062dd4c966a10eb74baf7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_10_A_seg_04
+    second: {fileID: 2100000, guid: 813b18c0895e204418fddc11713f3f48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_10_A_seg_05
+    second: {fileID: 2100000, guid: 82cf0867fbbae6a458891edc2a3cda5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_10_A_seg_06
+    second: {fileID: 2100000, guid: 32745aeb72be1af41a65f1eb60a9a4f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_10_A_seg_07
+    second: {fileID: 2100000, guid: 8098cc42ea662cf438991ded5494bc1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_10_A_seg_08
+    second: {fileID: 2100000, guid: 5908d66e156b37f4898f5cebb2a36252, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_11_A_seg_01
+    second: {fileID: 2100000, guid: d78827622ee901d4ea8227c4ea4f91ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_11_A_seg_02
+    second: {fileID: 2100000, guid: f0cb8b737418f4041ba823dbb1bf0002, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_11_A_seg_03
+    second: {fileID: 2100000, guid: 4954c547290f43e499ba4f85b2c0de31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_11_A_seg_04
+    second: {fileID: 2100000, guid: 7c60eeb679ef03c4a83c314bd763138d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_11_A_seg_05
+    second: {fileID: 2100000, guid: 958d28265918be249add4d478aedfaff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_11_A_seg_06
+    second: {fileID: 2100000, guid: b1e8665d1000c1b41907b25a4127cb94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_11_A_seg_07
+    second: {fileID: 2100000, guid: 8120e1b1db7a3ba4e8f3fcd7d858ce78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_11_A_seg_08
+    second: {fileID: 2100000, guid: 4f54c9728953f154194bff9748344689, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_12_A_seg_01
+    second: {fileID: 2100000, guid: b7e9055891ff51f47812b829750e8f48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_12_A_seg_02
+    second: {fileID: 2100000, guid: a37a8440c2851ae46ba8ba44c8756bcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_12_A_seg_03
+    second: {fileID: 2100000, guid: e8e570861c12e0c4b9d06e3249566396, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_12_A_seg_04
+    second: {fileID: 2100000, guid: bd82e4c8b3f6a8a4bb6f28399605ebc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_12_A_seg_05
+    second: {fileID: 2100000, guid: 4189684504776df4cb3fceefe1ed8f74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_12_A_seg_06
+    second: {fileID: 2100000, guid: 3af9119bec5c7a3448ed4c70ad4ca28a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_12_A_seg_07
+    second: {fileID: 2100000, guid: 9070f1154288477489b6b8aeed55c963, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_12_A_seg_08
+    second: {fileID: 2100000, guid: 0adaad8e30f88174da86814eaa087d86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_13_A_seg_01
+    second: {fileID: 2100000, guid: ef08eb34fedb18a44b10af8a7ac9d053, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_13_A_seg_02
+    second: {fileID: 2100000, guid: f368161be90d9d34f82d5fd4651e798f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_13_A_seg_03
+    second: {fileID: 2100000, guid: 882a95e137d63a049bd59d0767d3bc21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_13_A_seg_04
+    second: {fileID: 2100000, guid: 2222d4a90842e3e4faf1cc81ae623c31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_13_A_seg_05
+    second: {fileID: 2100000, guid: 374988c7afb82dc40aef4f8a18d3341d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_14_A_seg_01
+    second: {fileID: 2100000, guid: ce7aaf7444a081d47b92abe8f71bb844, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_14_A_seg_02
+    second: {fileID: 2100000, guid: 0f6f99df644be4d40b5bef83c558ae3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_14_A_seg_03
+    second: {fileID: 2100000, guid: 61e88e879a1e6ec4c8a9b3b42f7eefa7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_14_A_seg_04
+    second: {fileID: 2100000, guid: 087bdcd4525c49b4eab86609b8f8e3a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_14_A_seg_05
+    second: {fileID: 2100000, guid: d56d15ef87f46a6429472cb885e1f21f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_15_A_seg_01
+    second: {fileID: 2100000, guid: 78744f544b08d3a438b0b5eef16e1b7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_15_A_seg_02
+    second: {fileID: 2100000, guid: 1e7a19bd1966b1345ab658633d0eb150, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_15_A_seg_03
+    second: {fileID: 2100000, guid: 8aede23bfe066424c8109c46b2c5edec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_15_A_seg_04
+    second: {fileID: 2100000, guid: e43c18f572e1d57458af231e56b5c1bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_15_A_seg_05
+    second: {fileID: 2100000, guid: 2d4deb8c070130b4fb4c65ebb72c2aa1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_16_A_seg_01
+    second: {fileID: 2100000, guid: 7fa468213054f044b8e999b7042c4fce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_16_A_seg_02
+    second: {fileID: 2100000, guid: b7f953de05759db44b4e7ae5b6fde0fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_16_A_seg_03
+    second: {fileID: 2100000, guid: 5f5fbbacbcbb3384c9dd4847a893c7f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_16_A_seg_04
+    second: {fileID: 2100000, guid: 6bf0a9d11d8453543a0557337b782bdb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_16_A_seg_05
+    second: {fileID: 2100000, guid: 212e4b0029c572b42bd2a97ae19bee50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_17_A_seg_01
+    second: {fileID: 2100000, guid: fb4d9a289a076d547b744fad8731db68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_17_A_seg_02
+    second: {fileID: 2100000, guid: 198ae001cd3dd8b4c9e01c895f50daa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_17_A_seg_03
+    second: {fileID: 2100000, guid: c5b024e9eead92c44ab6734829a6efda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_17_A_seg_04
+    second: {fileID: 2100000, guid: 1a1a7b43113de7144b167c8cdc7ffc41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_17_A_seg_05
+    second: {fileID: 2100000, guid: bc28494c14d4e5f43bcf09f5a0890a51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_18_A_seg_01
+    second: {fileID: 2100000, guid: d055031173c81ec47987842701856a65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_18_A_seg_02
+    second: {fileID: 2100000, guid: bda96e2ab85a5074b92b6b0b9b24647d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_18_A_seg_03
+    second: {fileID: 2100000, guid: 5faebd8be66da724283fca50cc97ace7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_18_A_seg_04
+    second: {fileID: 2100000, guid: 9d597ad5de0d30d4c9d03d7fdbc199e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_18_A_seg_05
+    second: {fileID: 2100000, guid: 8b9b63976e5c7a444b70532302e2b03c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_19_A_seg_01
+    second: {fileID: 2100000, guid: 5b11a223c88abf946857447fd4cee044, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_19_A_seg_02
+    second: {fileID: 2100000, guid: 57d71526c7467e246969a31d2009d30e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_19_A_seg_03
+    second: {fileID: 2100000, guid: 160f3fc553b9cd74388a84f6f96b8446, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_19_A_seg_04
+    second: {fileID: 2100000, guid: 8db98e27f5f6cb84a92bf54b1f036f62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_19_A_seg_05
+    second: {fileID: 2100000, guid: f8be08c876df17a4aa78c801ee99a916, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_1_A_seg_01
+    second: {fileID: 2100000, guid: 1f5283b157dade1409ba7fa95bc9229d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_1_A_seg_02
+    second: {fileID: 2100000, guid: 16aa0db75b4825e43b8c406de0f539ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_1_A_seg_03
+    second: {fileID: 2100000, guid: f0d6ba9718a25f343a48beb13bce11f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_1_A_seg_04
+    second: {fileID: 2100000, guid: e0d67c1e5f0d9624a9602994f44ba25f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_1_A_seg_05
+    second: {fileID: 2100000, guid: 28e6ea446d133b64eac4ac8a0d240e2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_1_A_seg_06
+    second: {fileID: 2100000, guid: f00662fdc254bd04f9507c8bb67a794f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_1_A_seg_07
+    second: {fileID: 2100000, guid: 2bab0a3efbc493f47ad92673f077a45b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_1_A_seg_08
+    second: {fileID: 2100000, guid: 0ff5e8c10f4191b4f8acd0847d89bb96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_1_A_seg_09
+    second: {fileID: 2100000, guid: d6c7493eba74ca74cae5993c926e700d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_1_A_seg_10
+    second: {fileID: 2100000, guid: ba67d0751b1fdf84f81c51d05185f515, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_1_A_seg_11
+    second: {fileID: 2100000, guid: ad6d971c6682e3f40bd9c8a3323b6b89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_1_A_seg_12
+    second: {fileID: 2100000, guid: 095e11897056a7a4ea835fbc8f2278e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_20_A_seg_01
+    second: {fileID: 2100000, guid: cfd8db88aa71f5f4db26cd4547c28422, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_20_A_seg_02
+    second: {fileID: 2100000, guid: e7b67b145d6a6e14b994268fda00ff3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_20_A_seg_03
+    second: {fileID: 2100000, guid: b7836d0a1fe01034faf0ec8c362061c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_20_A_seg_04
+    second: {fileID: 2100000, guid: 156a2f085fed18f42b537c3eb602c0e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_20_A_seg_05
+    second: {fileID: 2100000, guid: c18363b35107c1241807234ab09e0728, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_21_A_seg_01
+    second: {fileID: 2100000, guid: 70cce67e33c47034799fc0564cbc4c77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_21_A_seg_02
+    second: {fileID: 2100000, guid: 64a40aad9d94ad44e8b0b2f23c4063ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_21_A_seg_03
+    second: {fileID: 2100000, guid: ad104c3e6f45a054196bde25e68a7143, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_21_A_seg_04
+    second: {fileID: 2100000, guid: cc8590fc3e156e3409431a46fd948cc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_21_A_seg_05
+    second: {fileID: 2100000, guid: 05bb4543fc3fa8842a20f4c7f4757e98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_22_A_seg_01
+    second: {fileID: 2100000, guid: 0fcf4e03da1528d4f9ac339c57651aef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_22_A_seg_02
+    second: {fileID: 2100000, guid: b145f1704c669e740ac902f3503cf2c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_22_A_seg_03
+    second: {fileID: 2100000, guid: 834ed9c0b42e03649a5f40bfce8b2bb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_22_A_seg_04
+    second: {fileID: 2100000, guid: 92f983094c1b2ef4993e563e9f1bb487, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_22_A_seg_05
+    second: {fileID: 2100000, guid: 522c43d466c319a4e8fcf8ba73f3205e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_23_A_seg_01
+    second: {fileID: 2100000, guid: b37c877600f03cb4ab142353a0435fa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_23_A_seg_02
+    second: {fileID: 2100000, guid: 07ceb3a40e813ac488aef5dff6870c5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_23_A_seg_03
+    second: {fileID: 2100000, guid: 81704dc5327b5244983cf52fc99d42d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_23_A_seg_04
+    second: {fileID: 2100000, guid: 60af0699be7fa3541879d891d36fba81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_23_A_seg_05
+    second: {fileID: 2100000, guid: 5af5837bfd75b5644bba669b9a9c8be6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_24_A_seg_01
+    second: {fileID: 2100000, guid: 80c9226922f72ca4e84ddf14ced286a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_24_A_seg_02
+    second: {fileID: 2100000, guid: 561e24f3d5299d743b0c60b36d4c9390, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_24_A_seg_03
+    second: {fileID: 2100000, guid: 2bd7e898f75ddda4e8ca3c5002191436, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_24_A_seg_04
+    second: {fileID: 2100000, guid: 211b1c35e36892b4a82f42ad32e8af22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_24_A_seg_05
+    second: {fileID: 2100000, guid: 709bf2eb392902f45856778a3099cac7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_2_A_seg_01
+    second: {fileID: 2100000, guid: a1ef76141fb4d8146b2091473c5f93d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_2_A_seg_02
+    second: {fileID: 2100000, guid: fdc3fe7e4e02e584d937be1e6d2fa36e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_2_A_seg_03
+    second: {fileID: 2100000, guid: 8b3479ade2b3d9c4b996f4c1a71e6cab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_2_A_seg_04
+    second: {fileID: 2100000, guid: 931c49a84431dff46baf1f1fb0afa6d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_2_A_seg_05
+    second: {fileID: 2100000, guid: 1e3142f022875804695fed5561e7d82c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_2_A_seg_06
+    second: {fileID: 2100000, guid: 34744c865ac6e274d9a0295aad24d278, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_2_A_seg_07
+    second: {fileID: 2100000, guid: 7adeb38eab8ed1a47adc0918d1381acf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_2_A_seg_08
+    second: {fileID: 2100000, guid: c02aad5e6629980488356cb95f55e395, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_2_A_seg_09
+    second: {fileID: 2100000, guid: e58c45d8c7c2ecc459dd0fe8febec670, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_2_A_seg_10
+    second: {fileID: 2100000, guid: 9fc8039120c4e33468aeacd55b7900ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_2_A_seg_11
+    second: {fileID: 2100000, guid: 41195c6034a78564e9919d0ad996b417, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_2_A_seg_12
+    second: {fileID: 2100000, guid: 77f48393c8e150f45bb70b5ba4da9963, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_3_A_seg_01
+    second: {fileID: 2100000, guid: 67d3d2797da67e84383b2f1884fc6a34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_3_A_seg_02
+    second: {fileID: 2100000, guid: acb2024d7f6f1e045bc40af702d868be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_3_A_seg_03
+    second: {fileID: 2100000, guid: 3273ac824e732a647a723e9a7085a2b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_3_A_seg_04
+    second: {fileID: 2100000, guid: 05ba8449e78470f4fac1a44ab4848155, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_3_A_seg_05
+    second: {fileID: 2100000, guid: d3b4dec040940bc46a2fffaea8acc64b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_3_A_seg_06
+    second: {fileID: 2100000, guid: 4847161d1140e4c4c835ea00b9e29559, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_3_A_seg_07
+    second: {fileID: 2100000, guid: 5e9c78310c67dd842b4d1d0123cb025a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_3_A_seg_08
+    second: {fileID: 2100000, guid: 6785a9a647156b949b02dc6f536c96b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_3_A_seg_09
+    second: {fileID: 2100000, guid: d5d6059c71990a248b8bce4c089a9fa7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_3_A_seg_10
+    second: {fileID: 2100000, guid: ea21056c5c14757479bac64774f009bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_3_A_seg_11
+    second: {fileID: 2100000, guid: b9572ed90fe667b4f865b8808298c833, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_3_A_seg_12
+    second: {fileID: 2100000, guid: 530f1b2dcb69d324fa5052c5bfdda45a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_4_A_seg_01
+    second: {fileID: 2100000, guid: 65edd8b895eb1cb469ee15a370c78067, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_4_A_seg_02
+    second: {fileID: 2100000, guid: d9c9007dbb52b664996d74127e567c9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_4_A_seg_03
+    second: {fileID: 2100000, guid: f389a3759ccba9e4a859f38b28fe6726, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_4_A_seg_04
+    second: {fileID: 2100000, guid: 235bfdbc7bb91054e90e441e04254b6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_4_A_seg_05
+    second: {fileID: 2100000, guid: 653ca1148492f27408c83d98cd628b59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_4_A_seg_06
+    second: {fileID: 2100000, guid: a96c0d285c581a04e956ee772787e9e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_4_A_seg_07
+    second: {fileID: 2100000, guid: e9d0051a23076e446b2d0a84c8277f88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_4_A_seg_08
+    second: {fileID: 2100000, guid: 723af3332382eef429999cf8636431a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_4_A_seg_09
+    second: {fileID: 2100000, guid: 71b0a794db7031841ba888f345575817, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_4_A_seg_10
+    second: {fileID: 2100000, guid: d6d73e4f4358e394c9b3242b6d398189, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_4_A_seg_11
+    second: {fileID: 2100000, guid: 0fe51e29537de7443886b1d8d8a86a96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_4_A_seg_12
+    second: {fileID: 2100000, guid: 68f9f230ea5c31e4cae1b02cdbde1344, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_5_A_seg_01
+    second: {fileID: 2100000, guid: e2c0bbc144d7a96478d5e56138f3bb74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_5_A_seg_02
+    second: {fileID: 2100000, guid: 7f7241a047ef6af43bb9f14b6600c0ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_5_A_seg_03
+    second: {fileID: 2100000, guid: 5d4824c15369b524f834c3f4268ddafc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_5_A_seg_04
+    second: {fileID: 2100000, guid: 76207c438f1ae3d488a40b89ad2adc2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_5_A_seg_05
+    second: {fileID: 2100000, guid: e346d72be3c78644495e07711b06f719, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_5_A_seg_06
+    second: {fileID: 2100000, guid: 561b8d2ce33ec2540b4a99d9c99694bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_5_A_seg_07
+    second: {fileID: 2100000, guid: 1d185ee7bafff7345bf38d020c02cf22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_5_A_seg_08
+    second: {fileID: 2100000, guid: 185fb6343cb8f5f4eaace0ce853c86ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_5_A_seg_09
+    second: {fileID: 2100000, guid: b7da5600bbd46fa4e8c074e01a8333bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_6_A_seg_01
+    second: {fileID: 2100000, guid: 416a6e698135d30489bafd78f53b3046, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_6_A_seg_02
+    second: {fileID: 2100000, guid: 0f07af411f881844791774cd24a09342, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_6_A_seg_03
+    second: {fileID: 2100000, guid: 0b88504c2722f41419890746eda9293c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_6_A_seg_04
+    second: {fileID: 2100000, guid: c330661732e2fe74baef47f74194fa11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_6_A_seg_05
+    second: {fileID: 2100000, guid: 343cc0fc6f760ac4aa614dffb15b0d9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_6_A_seg_06
+    second: {fileID: 2100000, guid: 6e9e1387f632c7f49a29b86f3ee52742, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_6_A_seg_07
+    second: {fileID: 2100000, guid: 177568f86e79d2643a0cd42365fead61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_6_A_seg_08
+    second: {fileID: 2100000, guid: d52d6a6383d7507418fd0c4926c1f3ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_6_A_seg_09
+    second: {fileID: 2100000, guid: 428cf1dec72cbd746babaafa3075687b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_7_A_seg_01
+    second: {fileID: 2100000, guid: 7a186a69851ae634780d361b08d43006, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_7_A_seg_02
+    second: {fileID: 2100000, guid: 1355d2184e9f2164aa00201eea068051, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_7_A_seg_03
+    second: {fileID: 2100000, guid: 5c94af2998a4e6e4bbf6a11f5e39d9a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_7_A_seg_04
+    second: {fileID: 2100000, guid: 114d5573347a79145aa0d530030977df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_7_A_seg_05
+    second: {fileID: 2100000, guid: 28e1ea08e446de24f8b90c7ad23e2a2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_7_A_seg_06
+    second: {fileID: 2100000, guid: e489284f1c2a86645b3bf6c4d911d0e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_7_A_seg_07
+    second: {fileID: 2100000, guid: 74fbcec95e72a6e40b9334ddd69bd8dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_7_A_seg_08
+    second: {fileID: 2100000, guid: 2e01de543ab79ae4d8308038031a28b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_8_A_seg_01
+    second: {fileID: 2100000, guid: fcac3ec63d14dce428967c9d35336391, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_8_A_seg_02
+    second: {fileID: 2100000, guid: 58a855ec13ece1a469e7e2218d92c046, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_8_A_seg_03
+    second: {fileID: 2100000, guid: e4d8f9584cc26bd4982722b2a5a3b283, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_8_A_seg_04
+    second: {fileID: 2100000, guid: c46b6ed8f080dc248b2110fe2afe7c9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_8_A_seg_05
+    second: {fileID: 2100000, guid: 85466d2f429c089458fa082b82e4326d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_8_A_seg_06
+    second: {fileID: 2100000, guid: 1dc88f04fd1a7784586a04939c13456c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_8_A_seg_07
+    second: {fileID: 2100000, guid: b7c98c5043e687c499fb3eb3b2492638, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_8_A_seg_08
+    second: {fileID: 2100000, guid: 834855cd075224c438bb9253e80b606e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_9_A_seg_01
+    second: {fileID: 2100000, guid: 8acdd1f4c13d1414cb8f60c982f66b55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_9_A_seg_02
+    second: {fileID: 2100000, guid: 1a50c9fb414db36478f8bd585c6621bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_9_A_seg_03
+    second: {fileID: 2100000, guid: 1b6450771a0864647b3057c42db13db9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_9_A_seg_04
+    second: {fileID: 2100000, guid: 5afbd650448bf72408131b0775e7d33b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_9_A_seg_05
+    second: {fileID: 2100000, guid: 10983956b0edac245b87baa0056dc698, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_9_A_seg_06
+    second: {fileID: 2100000, guid: 4ce77e7b912f7d54ea97426f393cfd9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_9_A_seg_07
+    second: {fileID: 2100000, guid: 3e2f246c76ff651429bec035cbaccd6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_9_A_seg_08
+    second: {fileID: 2100000, guid: 869c8ab627d662d4b91a0fd4411c525c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_A_A_seg_01
+    second: {fileID: 2100000, guid: 8d6d3c5543df2e54eb2833b6a22b6f55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_A_A_seg_02
+    second: {fileID: 2100000, guid: d4faed2ed21b65e4f8efbbecc32096fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_B_A_seg_01
+    second: {fileID: 2100000, guid: 2e703ab2722a9784f86d096d2978ffb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_B_A_seg_02
+    second: {fileID: 2100000, guid: eff94628b4a765f4ca6013022d1ed598, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_BackPerimeters_A_seg_01
+    second: {fileID: 2100000, guid: 49b5a6247bd7b7b4c8f22ba47c842ac0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_BackPerimeters_A_seg_02
+    second: {fileID: 2100000, guid: 3f9ba05ee498eb747905ef3cc41d5ad4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_BackPerimeters_A_seg_03
+    second: {fileID: 2100000, guid: cd6ad5ac525d8d34c8a7ed691721407c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_BackPerimeters_A_seg_04
+    second: {fileID: 2100000, guid: ba624c9474bda5e46bf9f8112ca091b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_BackPerimeters_A_seg_05
+    second: {fileID: 2100000, guid: a7649c434ea76c0408192f9bd5eda09e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_BackPerimeters_A_seg_06
+    second: {fileID: 2100000, guid: ebf144e7ebe373141b831a092be7f235, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_BackPerimeters_A_seg_07
+    second: {fileID: 2100000, guid: fa60e67354ca69c4d8da7c004cd10be7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_BackPerimeters_A_seg_08
+    second: {fileID: 2100000, guid: bdaee1564b1731c4784fc63168bbbfe4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_BackPerimeters_A_seg_09
+    second: {fileID: 2100000, guid: d44448e43265a094b9d58c87794a8933, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_BackPerimeters_A_seg_10
+    second: {fileID: 2100000, guid: c136049d05d615e4885558073708bc9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_BackPerimeters_A_seg_11
+    second: {fileID: 2100000, guid: 201cc72740b21df459d0dbaa88caa0e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_BackPerimeters_A_seg_12
+    second: {fileID: 2100000, guid: 9cb8929770200ce43850fcc089d916bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_BackPerimeters_A_seg_13
+    second: {fileID: 2100000, guid: 85e8bfb30af5f494785d55c4696441ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_BackPerimeters_A_seg_14
+    second: {fileID: 2100000, guid: e8e31ac274e73df4f8b4b825f26a5cca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_BackPerimeters_A_seg_15
+    second: {fileID: 2100000, guid: b50f483cdee7a0343bcf5098dfe14af1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_C_B_seg_01
+    second: {fileID: 2100000, guid: 98d9b7a3344cce440a2ab977dc683d88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_C_B_seg_02
+    second: {fileID: 2100000, guid: 70f936c6c3e72f74eb452b852f77aea3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_C_B_seg_03
+    second: {fileID: 2100000, guid: 12ec470dd18679048b0730ce34bdf8bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_C_B_seg_04
+    second: {fileID: 2100000, guid: 4ec9f986df7fe904fa9b98556de4e98c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_D_A_seg_01
+    second: {fileID: 2100000, guid: e0a2b62b04ebf5f4b8e79c55400e197f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_D_A_seg_02
+    second: {fileID: 2100000, guid: 6bea2fe1d3ee92c4aad7eb8225968a3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_D_A_seg_03
+    second: {fileID: 2100000, guid: f7d7da2e2c517d54695418bee9aba923, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_D_A_seg_04
+    second: {fileID: 2100000, guid: e7160d894bb9eac4f8228f0d07ce1466, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_E_A_seg_01
+    second: {fileID: 2100000, guid: c70a2b00500372a4c9c8b498746a8eee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_E_A_seg_02
+    second: {fileID: 2100000, guid: bf2f58b91cd0aa9499d861b73c2bb68e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_E_A_seg_03
+    second: {fileID: 2100000, guid: 1feaedb9a93c8414c9160ed96f8f5f30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_E_A_seg_04
+    second: {fileID: 2100000, guid: 322d9095f79981644b2c399d1029a70d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_E_A_seg_05
+    second: {fileID: 2100000, guid: 214a446266becae4ba2aa51f6bc1b720, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_F_A_seg_01
+    second: {fileID: 2100000, guid: 6f9dec5bbdc4ca248a5e9b769ac03ef3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_F_A_seg_02
+    second: {fileID: 2100000, guid: 276850aabda996a48aa01a3d401767c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_F_A_seg_03
+    second: {fileID: 2100000, guid: 43701b4680d13694594c3403659c9a87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_F_A_seg_04
+    second: {fileID: 2100000, guid: 6f1581643d1a41648bad1681fbb6d82e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_F_A_seg_05
+    second: {fileID: 2100000, guid: b96aaee674a18f54badf4199cbbd365b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_FrontPerimeters_A_seg_01
+    second: {fileID: 2100000, guid: 8fcce2e9013dbe84eb9e3329e4e0db1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_FrontPerimeters_A_seg_02
+    second: {fileID: 2100000, guid: d605f493feef15b438b343c6a22726df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_FrontPerimeters_A_seg_03
+    second: {fileID: 2100000, guid: 2fcc85c13dc616945a459c449a8efede, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_G_A_seg_01
+    second: {fileID: 2100000, guid: c4ba45a40897a5a47ae1e9b57b399e39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_G_A_seg_02
+    second: {fileID: 2100000, guid: 294ff85dd74490c4880c24a54d3f8381, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_G_A_seg_03
+    second: {fileID: 2100000, guid: dc9753e2f6ed2e3499aa45df3807a94d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_G_A_seg_04
+    second: {fileID: 2100000, guid: 7faefa3525410fa4a8c1b38a7ed39045, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_G_A_seg_05
+    second: {fileID: 2100000, guid: 03ffe84a6d5626c449167bfef8215634, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_H_A_seg_01
+    second: {fileID: 2100000, guid: 2aaf0281dc25ce14691ea0c40b8bfa7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_H_A_seg_02
+    second: {fileID: 2100000, guid: 3c3dad26d81b12c4fa13412945305878, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_H_A_seg_03
+    second: {fileID: 2100000, guid: 0f2fee68b1a46a34684dcc84e9f2c20c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_H_A_seg_04
+    second: {fileID: 2100000, guid: 1f546c1941e9c914ba3d5f5db0979180, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_H_A_seg_05
+    second: {fileID: 2100000, guid: 6b545e8c103168a4bae7619255633c4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_I_A_seg_01
+    second: {fileID: 2100000, guid: 49b76c05a35f26043bfdd127477a33e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_I_A_seg_02
+    second: {fileID: 2100000, guid: 25ed4c702278d4f4faaff1ea9ef343ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_I_A_seg_03
+    second: {fileID: 2100000, guid: 32b2519d474f5404e97ce2a1ffd5b0b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_I_A_seg_04
+    second: {fileID: 2100000, guid: eb449a674b8a71d4387cd4b69a0e9a43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_I_A_seg_05
+    second: {fileID: 2100000, guid: e0b6f016d35e5484fb4594af34a44beb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_Interior_wall_A_seg_01
+    second: {fileID: 2100000, guid: 19321d8287c85d848a05c1944fb4fd6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_Interior_wall_A_seg_02
+    second: {fileID: 2100000, guid: bd0165c49e2230141a41490a4db4eca5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_Interior_wall_A_seg_03
+    second: {fileID: 2100000, guid: 5066d0bf8e8066f4d9be8b6e724337e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_Interior_wall_A_seg_04
+    second: {fileID: 2100000, guid: 85ee3990053e0b74c963885f3c1fcca2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_Interior_wall_A_seg_05
+    second: {fileID: 2100000, guid: b2be497ab0843ed46bbfb63b04f68591, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_J_A_seg_01
+    second: {fileID: 2100000, guid: 76a9907d0fdabc34c99c8797f4cd89a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_J_A_seg_02
+    second: {fileID: 2100000, guid: e2d943765b7ff3b4ab011484e14bcc5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_J_A_seg_03
+    second: {fileID: 2100000, guid: 3d30679abecdf104d8823e35ee9f187d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_J_A_seg_04
+    second: {fileID: 2100000, guid: e31900a253451bd4fa919d8801f00134, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_J_A_seg_05
+    second: {fileID: 2100000, guid: 62c2698972d600843b385b802674aae2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_K_A_seg_01
+    second: {fileID: 2100000, guid: ca30dbd6020f2f94baf7a0e86822b168, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_K_A_seg_02
+    second: {fileID: 2100000, guid: aeefc8854182bb549982b8254e976492, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_K_A_seg_03
+    second: {fileID: 2100000, guid: c6a88a953ce1ad14ab77fb35fd188bd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_K_A_seg_04
+    second: {fileID: 2100000, guid: 00f4eba8e8b14df48a197986c9dbc19e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_K_A_seg_05
+    second: {fileID: 2100000, guid: 26baad73b8c62e249982ae0dc1593a7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_L_A_seg_01
+    second: {fileID: 2100000, guid: 8bc067ac71efa1344ab04b5f95fd12e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_L_A_seg_02
+    second: {fileID: 2100000, guid: bf9511e58125d2a45ab94f12eb9e1a43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_L_A_seg_03
+    second: {fileID: 2100000, guid: 572c9af70961b3441856e9d52d3a6315, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_L_A_seg_04
+    second: {fileID: 2100000, guid: 57babafb2d0433449bd87ca0764a6204, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_L_A_seg_05
+    second: {fileID: 2100000, guid: 0ba337f80d8789d46ac0a221ebc1e8b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_01
+    second: {fileID: 2100000, guid: 49514fac5fcea6949bfe410fb59fdbf9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_02
+    second: {fileID: 2100000, guid: 2b426e4b1644ab24f9ef21463fca1ad5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_03
+    second: {fileID: 2100000, guid: 262e414a22c77bb49acd28dbb918b1d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_04
+    second: {fileID: 2100000, guid: 31b69ccddb14e564ea5e132eaf181502, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_05
+    second: {fileID: 2100000, guid: 3f608803ba338a14aa990b6b30299c46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_06
+    second: {fileID: 2100000, guid: 41ec0dd3740026c4abda252a6f1504d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_07
+    second: {fileID: 2100000, guid: 3534a42116ecbcb45b7b1c6cabd46129, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_08
+    second: {fileID: 2100000, guid: f7a72f25c0ce5e146848579cf043f21c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_09
+    second: {fileID: 2100000, guid: d7b954af21a554c41b356b64fa5289cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_10
+    second: {fileID: 2100000, guid: 641f40a210c54bd4dba2904dac895a11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_11
+    second: {fileID: 2100000, guid: fb79711f22491e746bc68d7176254554, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_12
+    second: {fileID: 2100000, guid: cd87447377c7b874f9a806721cd5cb58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_13
+    second: {fileID: 2100000, guid: 766d984ac0cdf584cbb4661b3be85eed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_14
+    second: {fileID: 2100000, guid: e854c87aad6ede84eb4dd56ffee3d105, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_15
+    second: {fileID: 2100000, guid: bff2d6e3861926d4d892c378294d9043, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_16
+    second: {fileID: 2100000, guid: b6008e788ad87e84bbb5505848d7b98d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_17
+    second: {fileID: 2100000, guid: 03eff13829ab50e4096fa3bf8707d17b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_18
+    second: {fileID: 2100000, guid: 85325faf0c5b6de4999e2ab2a5d88dc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_19
+    second: {fileID: 2100000, guid: 443548a2829c7d34ba2dc706002db98e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_20
+    second: {fileID: 2100000, guid: e4c6c697be8f196409576d56c66469a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_21
+    second: {fileID: 2100000, guid: d9f54514f2192a34c9269cb83defed43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_22
+    second: {fileID: 2100000, guid: 13580b87ac1110948bf6d9b44e680735, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_23
+    second: {fileID: 2100000, guid: 6760e9f9bf126f84cb0427ec807bc394, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_24
+    second: {fileID: 2100000, guid: 7ce22636157081f42b417660d2d631a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_25
+    second: {fileID: 2100000, guid: f78b46ff701323747861f50333d4addb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_26
+    second: {fileID: 2100000, guid: 273f39e0bff551f4797c09f791b2ae0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_27
+    second: {fileID: 2100000, guid: bf3a8383cc5b44549ba98e27a38d90fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_LeftWall_Parimeter_A_seg_28
+    second: {fileID: 2100000, guid: 1c947fe1ad2166d45b87311845b57bfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_M_A_seg_01
+    second: {fileID: 2100000, guid: 443fb2212b867ac41852823b223b5844, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_M_A_seg_02
+    second: {fileID: 2100000, guid: 86ffe42a3cb62f540a44fe35164a4248, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_M_A_seg_03
+    second: {fileID: 2100000, guid: f3f1def5eccb1834d8037bfe8e8afd46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_M_A_seg_04
+    second: {fileID: 2100000, guid: 746aa21ce5a31694daddc72b3964ff42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_M_A_seg_05
+    second: {fileID: 2100000, guid: 6772e774991fe7e4a880fdbf4be90b34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_N_A_seg_01
+    second: {fileID: 2100000, guid: a6ee7d09c5b8dd448b484ec1062e4db2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_N_A_seg_02
+    second: {fileID: 2100000, guid: 165bff80bd8f91847aa443c60e9985d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_N_A_seg_03
+    second: {fileID: 2100000, guid: b65b374c67cae22498ae520681c39b21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_N_A_seg_04
+    second: {fileID: 2100000, guid: 8e485819be8539247a2b916857be763a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_N_A_seg_05
+    second: {fileID: 2100000, guid: 28858d2cfc61f4646941f8f20bb15ffc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_O_A_seg_01
+    second: {fileID: 2100000, guid: da90c8551430efa4394acb0a0b4aeaea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_O_A_seg_02
+    second: {fileID: 2100000, guid: 94de3d593ded96b4dbf4fe23bce0f6fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_O_A_seg_03
+    second: {fileID: 2100000, guid: 19453c24806d8ff44a2fab7de7fa77e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_O_A_seg_04
+    second: {fileID: 2100000, guid: f4dc66e077c0f1749a0e1d430371ee72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_O_A_seg_05
+    second: {fileID: 2100000, guid: a51934f439fc06e44810c7eda2f103f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_P_A_seg_01
+    second: {fileID: 2100000, guid: 4a1b8aae644a02b41925b07fa82e176f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_P_A_seg_02
+    second: {fileID: 2100000, guid: 5594c1404a9a66741a1b37ba0fb2db7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_P_A_seg_03
+    second: {fileID: 2100000, guid: 2b362e9c7fafc2345b18dd946e94f08c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_P_A_seg_04
+    second: {fileID: 2100000, guid: 6a3ec33bea6e7014aa6094ac6f385dcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_P_A_seg_05
+    second: {fileID: 2100000, guid: 3d01b336320664b4fa993e16c2d528cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_A_seg_01
+    second: {fileID: 2100000, guid: 64071fa01748ccb40932f04b8d79558b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_A_seg_02
+    second: {fileID: 2100000, guid: 99be99e033cd0e54b8474b5651bf3861, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_A_seg_03
+    second: {fileID: 2100000, guid: 86d158d88d2d9ba4084a1bf554f3a314, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_A_seg_04
+    second: {fileID: 2100000, guid: 8d0d8a3e4fcd1ba4796fb74e6da36277, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_A_seg_05
+    second: {fileID: 2100000, guid: d30e6e58376374d48b7847dc3eeb4456, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_A_seg_06
+    second: {fileID: 2100000, guid: b8c02b21ef4c8604b98313060f6270e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_A_seg_07
+    second: {fileID: 2100000, guid: cce5afadbc1d0804785af6cc1f205736, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_A_seg_08
+    second: {fileID: 2100000, guid: 60dc1831cdd25f84b82bcdceabcd9933, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_A_seg_09
+    second: {fileID: 2100000, guid: ca6ea1a0d2b24964492ae65a9cc56a0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_B_seg_01
+    second: {fileID: 2100000, guid: 896b53a16a23b294e8250e2cb6272a6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_B_seg_02
+    second: {fileID: 2100000, guid: bc89453d22a0f124d9eeb70382d2f0c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_B_seg_03
+    second: {fileID: 2100000, guid: 555dc8da3c81bad41b16d17a58c466c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_B_seg_04
+    second: {fileID: 2100000, guid: 0143cdb194d2ce94cafa1367f9cdae24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_C_seg_01
+    second: {fileID: 2100000, guid: c8c02116afb62b24b95d205398ae5880, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_C_seg_02
+    second: {fileID: 2100000, guid: 4bca00ad77988594ba202156ee5e23f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_C_seg_03
+    second: {fileID: 2100000, guid: f59286b305404114ca92089d202d912a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_C_seg_04
+    second: {fileID: 2100000, guid: 99194bb561c286041b91f674658c6b03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_C_seg_05
+    second: {fileID: 2100000, guid: 223f0a707f4b39f418ef5f71a0409bf9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_exterior_glass_wall_A_seg_01
+    second: {fileID: 2100000, guid: 837e353d86d425e4995fa4f9f2a76c09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_exterior_glass_wall_A_seg_02
+    second: {fileID: 2100000, guid: 4b7874b8efff3284f8b64c245c764e7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_exterior_glass_wall_A_seg_03
+    second: {fileID: 2100000, guid: 92ed12e686688ee45b2b939c6163daf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_exterior_glass_wall_A_seg_04
+    second: {fileID: 2100000, guid: 5df982e8509333e4ab4508eba4285ad8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_exterior_glass_wall_A_seg_05
+    second: {fileID: 2100000, guid: 4fa81ddb1afb70e4e87a84dec8b17919, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_exterior_glass_wall_A_seg_06
+    second: {fileID: 2100000, guid: bd7ea51823bea4041a350e2a535dbc5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_Car_01
+    second: {fileID: 2100000, guid: 166bd63c335403748b170ba29632485b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_Car_02
+    second: {fileID: 2100000, guid: 3da0fb8cd315cd541a614301e802e667, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_ComputerTable
+    second: {fileID: 2100000, guid: 8e28a30c4be1cea469d5cf06f0801b2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_FACADE
+    second: {fileID: 2100000, guid: 9d4e56c8127d6fb4ca22e3a7b52105c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_FAM_0667
+    second: {fileID: 2100000, guid: 494e72aff20e0e64cb517400ac1dd910, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_FAM_0668
+    second: {fileID: 2100000, guid: 26dd90a48da5dfa4092d811190a4b1de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_FAM_0669
+    second: {fileID: 2100000, guid: 1ee98813f6c5a6b489116a4c08be0be7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_FAM_0674
+    second: {fileID: 2100000, guid: 8f054e3d7498e0443a455329a521cde3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_FAM_0679
+    second: {fileID: 2100000, guid: 2ff094aec66cd45438c0a8cc703b4b36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_FAM_1265
+    second: {fileID: 2100000, guid: 29722df1e047abd4fb221ac03bb5cd05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_FAM_1266
+    second: {fileID: 2100000, guid: 7d2e1d542a255e348a10070033a9535b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_FAM_1267
+    second: {fileID: 2100000, guid: 891478210cf20e745b5e4539dfd7f226, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_FAM_1268
+    second: {fileID: 2100000, guid: 9bf30a5dc9c9e3a479cd183b0d43f6a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_FAM_1280
+    second: {fileID: 2100000, guid: 52f2246e586c79a4eb6a58754af775eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_FAM_1284
+    second: {fileID: 2100000, guid: 8f63dd8784a40ea4b8efe18ccd23b2be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_FAM_1284_01
+    second: {fileID: 2100000, guid: 13ea04379067ca64db06958a9ad0b2f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_FAM_1295
+    second: {fileID: 2100000, guid: 3b1568b30b119cb4da154b985eaca79d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_FAM_1299
+    second: {fileID: 2100000, guid: 23f9f6e522ca6204eab75763eec15073, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_FAM_1367
+    second: {fileID: 2100000, guid: 839dcc69583ae174999893c5ce8260a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_FAM_1367_01
+    second: {fileID: 2100000, guid: ee4aae349ccba5a4e9d17cff2bed36a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_FAM_1368
+    second: {fileID: 2100000, guid: 6b7fe75a8bf94ba43afbfd785d77a547, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_Family_Doller_Trolly
+    second: {fileID: 2100000, guid: c18bff3d9d15e4d4e9a1e828e13f2902, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_FrontWall_1057
+    second: {fileID: 2100000, guid: edea21c3f3148bf40b193b20c4424eb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_Objects
+    second: {fileID: 2100000, guid: 8f38782bcdacff947b088bfccdeb23f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_RightWall_Parimeter_A
+    second: {fileID: 2100000, guid: 2f21e9dc1f03a1c4895aff4b83965a37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_RightWall_Parimeter_B
+    second: {fileID: 2100000, guid: 27fd09eb26cfbc944a3bf75100d400cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_RightWall_Parimeter_B2
+    second: {fileID: 2100000, guid: 22a406d235a60124592488f1a3eb9c28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_entrance_ele
+    second: {fileID: 2100000, guid: afed0f118a58394449ec167230e08e48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_pallete_01
+    second: {fileID: 2100000, guid: daf48a60b5a0b084ba99606f4e94639c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_pallete_02
+    second: {fileID: 2100000, guid: cc8d6a5e8a907174885c78d3b0013742, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_pallete_03
+    second: {fileID: 2100000, guid: f05e3d7e2049d524f855e7c6f2fcfa53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #30531122
+    second: {fileID: 2100000, guid: 9404f00321313b84daeb7a9bf5de0a09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__26_04
+    second: {fileID: 2100000, guid: 5a30725ef9b550045b509e1454ae50d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__26_05
+    second: {fileID: 2100000, guid: 5a30725ef9b550045b509e1454ae50d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 4895289a457ee7b4790adf80e0283624, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Grill
+    second: {fileID: 2100000, guid: 052dd44f8519ab243a3d87b187b8369f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Grill2_png
+    second: {fileID: 2100000, guid: 052dd44f8519ab243a3d87b187b8369f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Grill3_png
+    second: {fileID: 2100000, guid: a64302702658d9a4286254100a95e43a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Grill4_png
+    second: {fileID: 2100000, guid: 7a8399f9051128243880a73d2b88dffe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sh_Allsidegondola
+    second: {fileID: 2100000, guid: 9404f00321313b84daeb7a9bf5de0a09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sign_RIGHT_WALL_B
+    second: {fileID: 2100000, guid: 9a0830db458d8be49943002b2297969a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Signage_13
+    second: {fileID: 2100000, guid: ad7d0bf4dfe88c64f8699abd3ea38030, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Signage_7_
+    second: {fileID: 2100000, guid: e5e4552a3b3fccf49a2343e4d34ba062, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_1
+    second: {fileID: 2100000, guid: ca80c1aa1d7482f4c89b1b9d89ac23f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_11
+    second: {fileID: 2100000, guid: 01e26836adac7c742bfc50952c7bf4d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_162
+    second: {fileID: 2100000, guid: 1ecefe1249a7504429faa73d481f5d8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_17
+    second: {fileID: 2100000, guid: 1ecefe1249a7504429faa73d481f5d8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_1751d
+    second: {fileID: 2100000, guid: c203fc58c7c94c440b59bf93253676c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_19
+    second: {fileID: 2100000, guid: 1ecefe1249a7504429faa73d481f5d8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_20
+    second: {fileID: 2100000, guid: 70f581ae62c859f49add3f6813620771, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_2054
+    second: {fileID: 2100000, guid: a24ba38ad7b784447997fd2e59e4d36e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_21
+    second: {fileID: 2100000, guid: 71afd91e25d8d7445b986de901d406ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_22
+    second: {fileID: 2100000, guid: a3a38095aee49504a881dee224422402, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_23
+    second: {fileID: 2100000, guid: 891da9b835c9a964bb68dfc77eddb543, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_232454
+    second: {fileID: 2100000, guid: 5cd37ff2b7384574a8689d3d948b43ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_24_07
+    second: {fileID: 2100000, guid: 477c4ea1b11efe84eb98d864aa5945f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_24_08
+    second: {fileID: 2100000, guid: 477c4ea1b11efe84eb98d864aa5945f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_31254
+    second: {fileID: 2100000, guid: 6bc5cd9c363c33d4ba63284da18ef180, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_5
+    second: {fileID: 2100000, guid: 48e2fbce3a184ee41b8f8603f1d6d6be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_7
+    second: {fileID: 2100000, guid: 3b6d52819dc87294eb7500a020f87a3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_7_02
+    second: {fileID: 2100000, guid: 1c3fd55008098794b98317e021ed3473, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_7_03
+    second: {fileID: 2100000, guid: 1c3fd55008098794b98317e021ed3473, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_9
+    second: {fileID: 2100000, guid: c16c51e3d10394c44ae65c3c2538652d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standered_Endcap_01
+    second: {fileID: 2100000, guid: 8c829a9df2cb5024cb42d10b668b564a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standered_Endcap_Net
+    second: {fileID: 2100000, guid: 6a91e8cf8700d35478f9f0ae9ac8ea25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standered_Endcap_Net_png
+    second: {fileID: 2100000, guid: 9404f00321313b84daeb7a9bf5de0a09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Store_front_1
+    second: {fileID: 2100000, guid: 27be8ba45c7c9394aa9af3d92b192c46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Store_front_3
+    second: {fileID: 2100000, guid: d2e8c5d3ec942384d9d8a82e5469b922, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Store_front_4
+    second: {fileID: 2100000, guid: 5b5c65bc69dda364ebbf416bf5fdafc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_07
+    second: {fileID: 2100000, guid: af5bd1da22a8be74f9a96dd23820863e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_08
+    second: {fileID: 2100000, guid: af5bd1da22a8be74f9a96dd23820863e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_concrete
+    second: {fileID: 2100000, guid: d9f1465a034aa794592771b27406adf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walmart_lightpoll
+    second: {fileID: 2100000, guid: 531735b588202f14aada937a0b39ea23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceilling_ac
+    second: {fileID: 2100000, guid: b446db5851fe20047a1b8bf562ba858c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: entrance_door_png
+    second: {fileID: 2100000, guid: 324856ef53107f14fa1031e541b9b368, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_texture_1
+    second: {fileID: 2100000, guid: 09869cd953daada468321217141bf803, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: store_front_2
+    second: {fileID: 2100000, guid: e67d71b209d6d3a43a6d39982452b230, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
