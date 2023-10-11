@@ -12,6 +12,7 @@ public class ForcelingImportProcessorClass : ScriptableObject
     public bool UseEmbeddedMaterials = false;
     public bool ImportCamera = false;
     public bool ImportLights = false;
+    public bool ReadWriteEnable = false;
 
     [Space(10)]
 

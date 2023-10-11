@@ -6,6 +6,6 @@ using UnityEngine;
 public class Config
 {
     public string username = "";
-    public bool interactableBuild = true;
+    public bool interactableBuild = false;
     public bool testingRoom = false;
 }

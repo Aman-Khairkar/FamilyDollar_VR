@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FbxSuffix: .fbx
   UseEmbeddedMaterials: 0
-  ImportCamera: 0
+  ImportCamera: 1
   ImportLights: 1
+  ReadWriteEnable: 1
   NormalMapSuffix: _n.tga
   SkyboxSuffix: _sky.tga

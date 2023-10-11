@@ -1,20 +1,139 @@
 fileFormatVersion: 2
 guid: 76669812c0b11994f8b731370d42df12
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Freez_Side_png
+    second: {fileID: 2100000, guid: cc8c87ec31abc4f4e8cb5d78da4be989, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_A_seg_01
+    second: {fileID: 2100000, guid: 07c8c73fe6ff68c4eb8f64c3fb33305e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_A_seg_02
+    second: {fileID: 2100000, guid: c65d179cc26f29b40a8176b21ec9da1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_A_seg_03
+    second: {fileID: 2100000, guid: ac26392234390a446b1da5af24b00807, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_A_seg_04
+    second: {fileID: 2100000, guid: 5c4e2fd6cbcea4f4f9eeb8e105d11e44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_A_seg_05
+    second: {fileID: 2100000, guid: d39631eec76727e46a23eb08ad956609, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_A_seg_06
+    second: {fileID: 2100000, guid: 7b04707a3415276478f0bf2a0c0a9262, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_A_seg_07
+    second: {fileID: 2100000, guid: 2159603704542f746a1d3f4475283fd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_A_seg_08
+    second: {fileID: 2100000, guid: 36106e28d26f15541b15fc42ab8a0c86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_A_seg_09
+    second: {fileID: 2100000, guid: 60e7d6cf98291f94fbde1b95127dd636, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_B_seg_01
+    second: {fileID: 2100000, guid: 68d69f2df75c6ab4ea5eb5b96e5fae3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_B_seg_02
+    second: {fileID: 2100000, guid: d83666aaaae400240add09a003a7bc2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_B_seg_03
+    second: {fileID: 2100000, guid: 2f76a5732dd76d44181c426c8cb6445a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_B_seg_04
+    second: {fileID: 2100000, guid: 59f71e47c39809449bfc75310dc6c5ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_C_seg_01
+    second: {fileID: 2100000, guid: 86a63c0077a5cfb4fab05e8ff6f1ef07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_C_seg_02
+    second: {fileID: 2100000, guid: 08f8adad54fa2844e83fef2f2595d2ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_C_seg_03
+    second: {fileID: 2100000, guid: 59300aa62ea54414a94346977b756295, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_C_seg_04
+    second: {fileID: 2100000, guid: 01ac897fd6b945d43b28814e49f995ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gondola_RightWall_Parimeter_C_seg_05
+    second: {fileID: 2100000, guid: ef41b5d8598af9345b59be1bd4398997, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_RightWall_Parimeter_B
+    second: {fileID: 2100000, guid: 52c6f3944f627d34cb90724617f14ff1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Instore_RightWall_Parimeter_B2
+    second: {fileID: 2100000, guid: 025921131aacdc143a38ae77890cb079, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No_Name
+    second: {fileID: 2100000, guid: cf76864ff440f4140b31659576a80a0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sh_Allsidegondola
+    second: {fileID: 2100000, guid: 1cf7fed6444ae0945926733dd779d9fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_24_07
+    second: {fileID: 2100000, guid: 14690e72a8b6a64449f7be73cc8d98e8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -32,7 +151,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
@@ -40,35 +159,27 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
-    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
-    bakeAxisConversion: 0
     preserveHierarchy: 0
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
-    optimizeBones: 1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 1
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -100,9 +211,6 @@ ModelImporter:
   animationType: 2
   humanoidOversampling: 1
   avatarSetup: 0
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  importBlendShapeDeformPercent: 1
-  remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

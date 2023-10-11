@@ -176,6 +176,8 @@ public class ForcelingImportProcessor : AssetPostprocessor
             //    FbxImporter.importLights = false;
             //}
             FbxImporter.importLights = SelectedProfile.ImportLights;
+
+            FbxImporter.isReadable = SelectedProfile.ReadWriteEnable;
         }
     }
 
