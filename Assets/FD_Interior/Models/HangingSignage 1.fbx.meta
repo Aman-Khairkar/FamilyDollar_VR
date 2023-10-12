@@ -8,17 +8,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Signage_13
-    second: {fileID: 2100000, guid: 27eecc526a18a4e43bdf6128720a50ee, type: 2}
+    second: {fileID: 2100000, guid: be6a745b6d79af443bbd6a6b670a2fea, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Signage_7_
-    second: {fileID: 2100000, guid: 6dd5692cb938caa448b69ddf12812574, type: 2}
+    second: {fileID: 2100000, guid: 0e1781b67955286439588bfe58da1b05, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Standered_Endcap_Net_png
-    second: {fileID: 2100000, guid: ab61618949a4dad4887312e58216cc62, type: 2}
+    second: {fileID: 2100000, guid: c6abc620d158cb64b8a17f1a7cd248a3, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -46,7 +46,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 1
@@ -56,11 +56,11 @@ ModelImporter:
     sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1

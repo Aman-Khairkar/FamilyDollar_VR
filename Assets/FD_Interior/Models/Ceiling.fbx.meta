@@ -8,32 +8,32 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ceilling
-    second: {fileID: 2100000, guid: 06ad6c8a867734b4bad81ab4218a28b7, type: 2}
+    second: {fileID: 2100000, guid: b0d76e5d85be9034a8c5a74d7a75b7f0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Cilling_duck_02
-    second: {fileID: 2100000, guid: dfbf6eb3a7c570e4b947d2dbda260822, type: 2}
+    second: {fileID: 2100000, guid: 7c599611b8349e4449fb030a12387aa6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material__26_04
-    second: {fileID: 2100000, guid: ea5cac1286097304799f603ae30e42c1, type: 2}
+    second: {fileID: 2100000, guid: a836bc77693b15b4890d1ed9955ce634, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material__26_05
-    second: {fileID: 2100000, guid: ea5cac1286097304799f603ae30e42c1, type: 2}
+    second: {fileID: 2100000, guid: a836bc77693b15b4890d1ed9955ce634, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Standard_232454
-    second: {fileID: 2100000, guid: 9e9fa42cc86636041af77cfa13601fff, type: 2}
+    second: {fileID: 2100000, guid: bd28e805a04e0964781fe45271f751ba, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Standard_31254
-    second: {fileID: 2100000, guid: f6b30c8af5e23ff4f9a5cc01129eb102, type: 2}
+    second: {fileID: 2100000, guid: 4f33932b95279fa44960c5eb1593f755, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -61,7 +61,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 1
@@ -71,11 +71,11 @@ ModelImporter:
     sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
